@@ -1,5 +1,3 @@
-import { Home } from "@mui/icons-material";
-import { Login } from "@mui/icons-material";
 import React from "react";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import HomePage from "./scenes/homePage";
