@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "../navbar/index";
 import UserWidget from "../../scenes/widgets/UserWidget";
 import MyPostWidget from "../../scenes/widgets/MyPostWidget";
-import PostWidget from "../../scenes/widgets/PostWidget";
+import PostsWidget from "../../scenes/widgets/PostWidget";
 
 const HomePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width: 1024px)");
@@ -28,7 +28,7 @@ const HomePage = () => {
           mt={isNonMobileScreens ? undefined : "2rem"}
         >
           <MyPostWidget userId={_id} picturePath={picturePath} />
-          <PostWidget userId={_id} />
+          <PostsWidget userId={_id} />
         </Box>
         {isNonMobileScreens && <Box flexBasis="26%"></Box>}
       </Box>
