@@ -49,7 +49,7 @@ const Navbar = () => {
           onClick={() => navigate("/home")}
           sx={{ "&:hover": { cursor: "pointer" } }}
         >
-          Sociapedia
+          Sociopedia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween

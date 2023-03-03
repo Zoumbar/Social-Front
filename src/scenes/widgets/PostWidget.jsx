@@ -10,7 +10,7 @@ import { Box, Divider, IconButton, Typography, useTheme } from "@mui/material";
 import FlexBetween from "../../components/FlexBetween";
 import Friend from "../../components/Friend";
 import WidgetWrapper from "../../components/WidgetWrapper";
-import { setPost } from "../../state/index";
+import { setPost } from "../../state";
 
 const PostWidget = ({
   postId,
